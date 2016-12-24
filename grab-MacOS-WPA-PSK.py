@@ -61,7 +61,7 @@ print("")
 # The third field contains the PSK. There's no readable string here so print it all as hex, i.e., its ASCII representation.
 print ("Your PSK (hex representation): ", end="")
 pos = 0
-currPSK = nvRAMvariable[2]
+currPSK = nvRAMvariable[-1]
 while pos < len(currPSK):
     if currPSK[pos] == '%':
         hexifiedByte = currPSK[pos + 1: pos + 3]
