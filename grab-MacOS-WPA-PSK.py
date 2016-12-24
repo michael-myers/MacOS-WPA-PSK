@@ -27,6 +27,7 @@
 
     Changelog:
     1.0:    initial release. None of this 0.x crap. It works, so it's 1.0.
+    1.01:   fix from michaelrice, to correctly parse the fields when there are SSIDs with spaces
 """
 from __future__ import print_function
 import os
