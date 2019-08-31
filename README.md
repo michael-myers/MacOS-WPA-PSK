@@ -9,6 +9,6 @@ Usage:
         python grab-MacOS-WPA-PSK.py
 
 Dependencies:
-        Just python, which as a MacOS user you already have.
+        Just Python, which as a macOS user you already have.
 
-Tested with MacOS 10.12.2.
+Tested with MacOS 10.12.2 through 10.14.6.
